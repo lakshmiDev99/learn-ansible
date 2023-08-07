@@ -9,6 +9,6 @@
 
     - name : Install nginx
       ansible.builtin.systemd:
-        name: httpd
+        name: nginx
         state: started
         enabled : yes
