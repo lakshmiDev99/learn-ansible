@@ -6,6 +6,7 @@
       ansible.builtin.yum:
         name : httpd
         state : latest
+
     - name: Install nginx
       ansible builtin systemd:
         name: httpd
