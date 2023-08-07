@@ -12,8 +12,9 @@
         name: nginx
         state: started
         enabled : yes
+
 - name : Install Nginx
   hosts : WEB
   become : true
   roles :
-    -sample
+    - sample
