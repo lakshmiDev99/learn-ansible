@@ -7,7 +7,7 @@
         name : httpd
         state : latest
 
-    - name: Install nginx
+    - name : Install nginx
       ansible builtin systemd:
         name: httpd
         state: started
