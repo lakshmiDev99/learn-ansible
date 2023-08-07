@@ -16,5 +16,5 @@
 - name : Install Nginx
   hosts : WEB
   become : true
-  roles :
+  roles:
     - sample
