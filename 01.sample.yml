@@ -17,4 +17,4 @@
   hosts: WEB
   become: true
   roles:
-    - sample
+      - sample
